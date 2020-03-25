@@ -1,9 +1,12 @@
 import React from "react";
-import Main from "./pages/Main";
-import "./App.css";
+import Routes from "./routes"
+import "./global.css";
+
 
 function App() {
-  return <Main />;
+ 
+  return(
+    <Routes />
+  )
 }
-
 export default App;
